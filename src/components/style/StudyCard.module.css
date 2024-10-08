@@ -1,0 +1,23 @@
+.card {
+    /*margin: auto;*/
+    margin: .7rem auto;
+    /* padding: 13rem;
+    /*padding: 1rem;*/
+    box-shadow: 0 2px 8px #2d363f;
+    border-radius: 14px;
+    background-color: #5dcbc2;
+    z-index: 0;
+    width: 70%;
+
+}
+.card h2 {
+    padding: 30px;
+    /*font-family: cursive;*/
+    border-bottom: 2px solid #626060;
+    margin-bottom: 15px;
+    font-family: iranyekanwebblack;
+}
+body {
+    background : #e0f2e9!important;
+}
+

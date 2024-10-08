@@ -1,0 +1,148 @@
+
+
+.options {
+    /*text-align: right;*/
+    display: grid;
+    /*justify-content: start;*/
+    justify-content: space-evenly;
+    /*width: 70%;*/
+    margin: auto 70px;
+    padding: 10px;
+}
+
+.ansbutton {
+    margin-top: 10px;
+
+    background-color: #fbeee0;
+    /*border: 2px solid #422800;*/
+    border-radius: 30px;
+    box-shadow: #a7dee3 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.ansbutton:hover {
+    background-color: #fff;
+}
+
+.ansbutton:active {
+    box-shadow: #b67509 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .ansbutton {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+.custom_audio_player {
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgb(43, 43, 43);
+}
+
+.custom_audio_player audio {
+    width: 100%;
+    outline: none;
+}
+
+.custom_audio_player::-webkit-media-controls-panel {
+    background-color: #EFA8B8;
+    color: #000000!important;
+    border-radius: 10px;
+}
+
+.custom_audio_player::-webkit-media-controls-play-button,
+.custom_audio_player::-webkit-media-controls-pause-button,
+.custom_audio_player::-webkit-media-controls-mute-button,
+.custom_audio_player::-webkit-media-controls-volume-slider {
+    filter: invert(100%);
+}
+
+.custom_audio_player::-webkit-media-controls-timeline {
+    background: rgba(238, 0, 0, 0.1);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.custom_audio_player::-webkit-media-controls-current-time-display,
+.custom_audio_player::-webkit-media-controls-time-remaining-display {
+    color: #000000;
+}
+.speaker {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+}
+
+.actions {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    align-items: flex-end;
+}
+
+
+.actions button, .buttonprev {
+    direction: rtl;
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #13bd6c;
+    border-color: #13bd6c;
+    color: white;
+}
+
+.actions .button--alt {
+    color: #8a2b06;
+}
+
+.actions .button {
+    background-color: #07BA5D;
+    color: white;
+    direction: ltr;
+}
+
+
+/* In your CSS file, e.g., Vocab.module.css */
+.ansbutton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.ansbutton:disabled:hover {
+    color: #4e5357;
+}
+
+
+
+
+h3{
+    padding-left: 7px;
+    font-family: 'iranyekanwebmedium';
+
+}

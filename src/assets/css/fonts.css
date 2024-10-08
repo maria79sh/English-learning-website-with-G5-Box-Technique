@@ -1,0 +1,97 @@
+/*
+
+	You can import your fonts in this file
+
+*/
+
+@font-face {
+	font-family: 'iranyekanwebblack';
+    src: url("../fonts/fonts/iranyekanwebblack.woff");
+}
+
+@font-face {
+	font-family: 'iranyekanwebbold';
+	src: url('../fonts/fonts/iranyekanwebbold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iranyekanwebextrablack';
+	src: url('../fonts/fonts/iranyekanwebextrablack.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iranyekanwebextrabold';
+	src: url('../fonts/fonts/iranyekanwebextrabold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iranyekanweblight';
+	src: url('../fonts/fonts/iranyekanweblight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iranyekanwebmedium';
+	src: url('../fonts/fonts/iranyekanwebmedium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iranyekanwebregular';
+	src: url('../fonts/fonts/iranyekanwebregular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'iranyekanwebthin';
+	src: url('../fonts/fonts/iranyekanwebthin.woff') format('woff');
+}
+
+/* English Fonts */
+
+@font-face {
+    font-family: 'DIN Alternate';
+    src: url('../fonts/fonts/DIN Alternate.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'DIN Condensed Bold';
+    src: url('../fonts/fonts/DIN Condensed Bold.ttf') format('truetype'), url('../fonts/fonts/DIN Condensed Bold.woff') format('woff'), url('../fonts/fonts/DIN Condensed Bold.eot') format('eot'), url('../fonts/fonts/DIN Condensed Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'DIN Light';
+    src: url('../fonts/fonts/DIN Light.ttf') format('truetype'), url('../fonts/fonts/DIN Light.eot') format('eot'), url('../fonts/fonts/DIN Light.woff') format('woff'), url('../fonts/fonts/DIN Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DIN Light Alternate';
+    src: url('../fonts/fonts/DIN Light Alternate.ttf') format('truetype'), url('../fonts/fonts/DIN Light Alternate.eot') format('eot'), url('../fonts/fonts/DIN Light Alternate.woff') format('woff'), url('../fonts/fonts/DIN Light Alternate.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DIN Medium';
+    src: url('../fonts/fonts/DIN Medium.ttf') format('truetype'), url('../fonts/fonts/DIN Medium.eot') format('eot'), url('../fonts/fonts/DIN Medium.woff') format('woff'), url('../fonts/fonts/DIN Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DIN-Regular';
+    src: url('../fonts/fonts/DIN-Regular.ttf') format('truetype'), url('../fonts/fonts/DIN-Regular.eot') format('eot'), url('../fonts/fonts/DIN-Regular.woff') format('woff'), url('../fonts/fonts/DIN-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Bold';
+    src: url('../fonts/fonts/DINNextLTPro-Bold.eot') format('eot'), url('../fonts/fonts/DINNextLTPro-Bold.ttf') format('truetype'), url('../fonts/fonts/DINNextLTPro-Bold.woff') format('woff'), url('../fonts/fonts/DINNextLTPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Light';
+    src: url('../fonts/fonts/DINNextLTPro-Light.eot') format('eot'), url('../fonts/fonts/DINNextLTPro-Light.ttf') format('truetype'), url('../fonts/fonts/DINNextLTPro-Light.woff') format('woff'), url('../fonts/fonts/DINNextLTPro-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Medium';
+    src: url('../fonts/fonts/DINNextLTPro-Medium.eot') format('eot'), url('../fonts/fonts/DINNextLTPro-Medium.ttf') format('truetype'), url('../fonts/fonts/DINNextLTPro-Medium.woff') format('woff'), url('../fonts/fonts/DINNextLTPro-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Regular';
+    src: url('../fonts/fonts/DINNextLTPro-Regular.eot') format('eot'), url('../fonts/fonts/DINNextLTPro-Regular.ttf') format('truetype'), url('../fonts/fonts/DINNextLTPro-Regular.woff') format('woff'), url('../fonts/fonts/DINNextLTPro-Regular.woff2') format('woff2');
+}

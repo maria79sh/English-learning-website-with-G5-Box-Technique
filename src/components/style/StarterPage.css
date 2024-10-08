@@ -1,0 +1,22 @@
+/* StarterPage.css */
+
+.starter-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+.starter-video {
+    width: 100%;
+    /*max-height: 500px;*/
+    height: 100%;
+    min-height: 100%;
+    object-fit: cover; /* This ensures the video covers the entire screen */
+
+}
+
+

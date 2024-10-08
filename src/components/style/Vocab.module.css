@@ -1,0 +1,290 @@
+.result {
+    /*position: relative;*/
+    /*    bottom: 50px;*/
+}
+
+.actions {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    align-items: flex-end;
+}
+
+h2 {
+    font-family: "DIN Light Alternate";
+}
+
+.actions button, .buttonprev {
+    direction: rtl;
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #13bd6c;
+    border-color: #13bd6c;
+    color: white;
+}
+
+.actions .button--alt {
+    color: #8a2b06;
+}
+
+.actions .button {
+    background-color: #07BA5D;
+    color: white;
+    direction: ltr;
+    font-family: iranyekanwebmedium;
+    font-size: larger;
+}
+
+.options {
+    text-align: center;
+    display: grid;
+    width: 48%;
+    /* margin: auto 70px; */
+    /* padding: 10px; */
+    margin: 21px auto;
+    justify-items: stretch;
+    align-content: space-around;
+    font-family: din-round, sans-serif;
+}
+
+.ansbutton {
+    margin-top: 10px;
+
+    background-color: #EFA8B8;
+    border: 2px solid #EFA8B8;
+    border-radius: 30px;
+    box-shadow: #a7dee3 4px 4px 0 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.ansbutton:hover {
+    background-color: #fff;
+}
+
+/*.ansbutton:active {*/
+/*    box-shadow: #422800 2px 2px 0 0;*/
+/*    transform: translate(2px, 2px);*/
+/*}*/
+
+@media (min-width: 768px) {
+    .ansbutton {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+
+/* In your CSS file, e.g., Vocab.module.css */
+.ansbutton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.ansbutton:disabled:hover {
+    color: #4e555b;
+}
+
+
+.spellingAns {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.spellingAns input {
+    border: 2px solid #0dc6f0;
+    text-align: center;
+    padding: 8px;
+    background: beige;
+    border-radius: 6px;
+    margin-left: 16px;
+    font-family: iranyekanwebmedium;
+    font-size: 20px;
+    box-shadow: 1px 1px 8px 6px rgba(50, 71, 69, 0.77) !important;
+}
+
+.spellingQst {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.spellingSec {
+    text-align: center;
+}
+
+.spelling_actions {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    align-items: flex-end;
+}
+
+.spelling_actions button:hover,
+.spelling_actions button:active {
+    background-color: #13bd6c;
+    border-color: #13bd6c;
+    color: white;
+}
+
+.spelling_actions button, .buttonprev {
+    direction: rtl;
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.spelling_actions .button {
+    background-color: #07BA5D;
+    color: white;
+    direction: ltr;
+}
+
+.spellingCheck {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.spellingCheck:hover {
+    cursor: pointer;
+}
+
+/* CSS */
+.pdfBtn {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    pointer-events: auto;
+    position: relative;
+    right: 10px;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: fit-content;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+}
+
+.pdfBtn:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.questionHdr {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #626060;
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: none !important;
+}
+
+
+/* CSS */
+.Quizbutton {
+    appearance: button;
+    background-color: #57ee24;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-weight: 700;
+    direction: ltr;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.Quizbutton:after {
+    background-clip: padding-box;
+    background-color: #22d910;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+.Quizbutton:focus {
+    user-select: auto;
+}
+
+.Quizbutton:hover:not(:disabled) {
+    filter: brightness(1.1);
+    cursor: pointer;
+    -webkit-filter: brightness(1.1);
+}
+
+.Quizbutton:disabled {
+    cursor: auto;
+}
+
+.Quizbutton:active {
+    border-width: 4px 0 0;
+    background: none;
+    cursor: pointer;
+
+}

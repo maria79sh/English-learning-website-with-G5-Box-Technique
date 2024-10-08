@@ -1,0 +1,42 @@
+.progressSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .progressSection {
+        grid-template-columns: 1fr;
+    }
+}
+.progress {
+    height: 1.8rem!important;
+    box-shadow: 0 0 10px 5px #ffffff30, 0 0 7px 1px #fff4ea, 0 0 7px 4px #ffffff63, 0 0 11px 16px #7ca78652;
+    /*height: 20px;*/
+    /*border-radius: 10px;*/
+    background-color: #bbddff;
+    /*box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);*/
+}
+
+.progress-bar {
+    /*border-radius: 10px;*/
+    background-color: #31f25d!important; /* Default progress bar color */
+    box-shadow: #2c0d00;
+}
+
+.card-body{
+    width: 65%;
+    min-height: 100px!important;
+    padding: 10px ;
+}
+.card-title {
+    /*margin-top: 2rem;*/
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}

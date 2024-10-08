@@ -1,0 +1,130 @@
+.userLevel {
+    font-family: iranyekanwebblack;
+    color: #2c0d00;
+
+}
+
+.dropdown {
+    position: absolute;
+    top: 150px; /* Adjust based on your layout */
+    background: white;
+    right: 40px;
+
+    /*border: 3px solid #ccc;*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    z-index: 1000;
+    min-width: 250px; /* Adjust based on your layout */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    direction: rtl;
+    text-align: right;
+}
+
+.scoreDropDown {
+    position: absolute;
+    top: 150px;
+    background: white;
+    right: 304px;
+    /* border: 3px solid #ccc; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    z-index: 1000;
+    min-width: 180px;
+    padding: 20px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: iranyekanwebmedium;
+    gap: 15px;
+    direction: rtl;
+    text-align: right;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user_details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #4d1601!important;
+}
+
+.user_info {
+    color: #4d1601!important;
+    font-size: 14px;
+}
+.userLevel{
+    color: #348be9;
+}
+.scoreTitle {
+    color: #ff8c0c!important;
+    font-family: iranyekanwebblack;
+    padding-top: 12px;
+}
+.actions {
+    display: flex;
+    direction: ltr;
+    justify-content: space-between;
+}
+.scores {
+    display: flex;
+    padding: 3px;
+}
+.secondRow {
+    /*margin-top: 20px;*/
+    margin-left: 4px;
+    padding: 0 15px 15px 0;
+}
+.exitBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8f1414;
+    color: white;
+    cursor: pointer;
+    direction: ltr;
+    text-align: left;
+    margin-top: 25px;;
+    transition: background-color 0.3s ease;
+}
+button
+button:hover {
+    background-color: #007CBE!important;
+}
+
+@media (max-width: 600px) {
+    .dropdown {
+        min-width: 200px;
+        padding: 15px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 870px) {
+
+    .scoreDropDown {
+        display: none;
+
+    }
+
+    .dropdown {
+        min-width: 200px;
+        padding: 15px;
+        right: 20px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

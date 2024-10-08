@@ -1,0 +1,60 @@
+.answer{
+    text-align: center;
+}
+.answer input{
+    text-align: center;
+    border-radius: 60px;
+    border: solid 2px #E25E3E
+
+}
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+}
+
+.actions .button--alt {
+    color: #8a2b06;
+}
+
+.actions .button {
+    background-color: #8a2b06;
+    color: white;
+}
+
+.options{
+    text-align: right;
+    display: grid;
+    justify-content: start;
+    width: 70%;
+    margin: 50px 70px ;
+    padding: 10px;
+}
+.options button{
+    box-shadow: #2c0d00 ;
+    border: solid 2px #6B240C;
+    color: rgb(112, 34, 34);
+    background-color: white;
+    padding:10px 50px ;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.speaker {
+    text-align: center;
+}

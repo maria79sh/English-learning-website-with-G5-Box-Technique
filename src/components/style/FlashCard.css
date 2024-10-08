@@ -1,0 +1,163 @@
+
+flashcard-wrapper{
+    text-align: center;
+}
+.flashcard {
+    padding-top: 30px;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    font-family: iranyekanwebmedium;
+    margin: auto;
+}
+
+.flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+.flashcard.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px; /* Rounded corners */
+}
+
+.flashcard-front {
+    background-color: #2ecc71;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcard-back {
+    background-color: #f32c2c;
+    color: #ffffff;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.word {
+    border-bottom: none!important;
+    padding: 0!important;
+    margin-top: 14px!important;
+    margin-bottom: 0!important;
+}
+
+.flip-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #3498db;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.light {
+    width: 40px;
+}
+
+.refill {
+    background-color: #8b87c1;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result {
+    margin: auto;
+}
+.addImg {
+    width: 100px;
+    margin: 45px 2px;
+}
+.secondRow {
+    font-size: 24px;
+    margin :20px auto;
+}
+
+.addWordsBody{
+    font-family: iranyekanwebblack;
+}
+.addWordsInput{
+    border: 6px solid #ffb578;
+    font-family: iranyekanwebmedium;
+    text-align: center;
+    background-color: #8b87c1a8;
+    width: 80%;
+}
+.addAnsInput {
+    margin: 8px auto;
+    border: 6px solid #ffb578;
+    font-family: iranyekanwebmedium;
+    text-align: center;
+    background-color: #8b87c1a8;
+    width: 80%;
+}
+
+.addWordsBtn {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: auto 10px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    /*white-space: nowrap;*/
+}
+
+.addWordsBtn:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+.addWordsBtn:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.addWordsBtn:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
